@@ -9,12 +9,23 @@ import AccountCreationForm from './AccountCreationForm';
 //IMPORTS - Styles
 import styles from "./MainNavigation.module.css"
 
-function MainNavigation(){
-    const accountCtx = useContext(AccountContext)
 
-    function handleCreateAccount(){
-        accountCtx.startCreatingAccount()
-    }
+
+function MainNavigation(){
+    //const accountCtx = useContext(AccountContext)
+
+    //function handleCreateAccount(){
+        //accountCtx.startCreatingAccount()
+    //}
+
+                     
+    //<Bttn>Log In</Bttn>          
+    //<Bttn >Log Out</Bttn>                        
+    //<Bttn onClick= {handleCreateAccount}>Create Account</Bttn>
+                       
+                  
+            
+
 
     return (
         <header className={styles.headerStyle}>
@@ -25,17 +36,6 @@ function MainNavigation(){
                     </li>
                      <li>
                         <NavLink to="/Favorites">Favorite Topics</NavLink>
-                    </li>
-                    <li>
-                        <Bttn>Log In</Bttn>
-                    </li>
-                    <li>
-                         <Bttn >Log Out</Bttn>
-                    </li>
-                    <li>
-                     
-                        <Bttn onClick= {handleCreateAccount}>Create Account</Bttn>
-                       
                     </li>
                 </ul>
             </nav> 
