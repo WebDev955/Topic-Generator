@@ -1,0 +1,54 @@
+.mainDiv{
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.header {
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    width: 100vw;
+
+    border-bottom: red;
+    border-bottom-width: 5px;
+    border-bottom-style:outset;
+
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+
+}
+
+.topicContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    background-color: #d0253cff;
+    border-style: solid;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    margin-bottom: 10px;
+}
+
+.topicDes{
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    
+
+}
+
+.resourcesDiv{
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    padding: 12px;
+    margin-bottom: 5px;
+
+}

@@ -1,0 +1,36 @@
+.whereToStartWrapper{
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.whereToStartWrapper h1{
+    font-weight: lighter;
+
+}
+
+.resourcesDiv {
+    padding: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    border: solid 1px yellow;
+}
+.resourcesDiv p{
+    font-size: larger;
+}
+
+
+.resourcesDiv h2 {
+    text-align: center; 
+}
+
+
+
+.resourcesDiv a{
+    padding-bottom: 10px;
+    text-align: center;
+}
+

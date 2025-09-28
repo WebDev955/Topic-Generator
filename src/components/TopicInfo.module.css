@@ -1,0 +1,14 @@
+.mainDiv{
+    Display: flex;
+    Flex-direction: column;
+    Align-items: center;
+    padding: 15px;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin: 10px;
+
+}
+
+.mainDiv p{
+    text-align: center;
+}

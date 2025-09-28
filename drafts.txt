@@ -1,0 +1,43 @@
+
+//TopicInfo Conmponent
+import Topics from "../data/Topics"
+import WhereToStart from "./WhereToStart"
+
+function TopicInfo(){
+    return(
+        <>
+            {Topics.map((topic) => (
+                <li key={topic.id}>
+                    <h1>{topic.name}</h1>
+                    <p>{topic.description}</p>
+                </li>
+            ))}
+            <WhereToStart/>
+
+
+            <h1>*Name of Topic Generated*</h1>
+            <h2>General Info</h2>
+            <div>
+                <p> General info on topic displayed via a maping of a backend array
+                    with topic info.
+                </p>
+            </div>
+        </>
+
+
+//where to start
+function WhereToStart(){
+    return(
+        <>
+            <h1>Start Your Journey into *Topic Name*</h1>
+            <div>
+                <h2>Links to start journey, mapped via a databased with links</h2>
+                <ul>
+                    <li>Link to a book on Barnes and Noble</li>
+                    <li>Link to a a documentry on YouTube</li>
+                    <li>Link to a a movie on Amazon</li>
+                </ul>
+            </div>
+        </>
+    )
+}
