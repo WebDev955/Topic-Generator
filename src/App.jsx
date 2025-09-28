@@ -1,5 +1,5 @@
 //IMPORTS - HOOKS
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createHashRouter, RouterProvider} from "react-router-dom";
 //IMPORTS - COMPONENTS
 import HomePage from './pages/HomePage'
 import Favorites from "./pages/Favorites";
@@ -11,7 +11,7 @@ import { AccountContext, AccountContextProvider } from "./components/AccountCont
 
 
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/", 
     element: <RootLayout/>,
