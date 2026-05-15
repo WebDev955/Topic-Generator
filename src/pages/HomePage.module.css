@@ -1,4 +1,4 @@
-.mainDiv{
+.mainDiv {
     display: flex;
     Flex-direction: column;
     Align-items: center;
@@ -7,19 +7,20 @@
     padding: 5px;
 }
 
-.header{
+.header {
     text-align: center;
     padding-bottom: 15px;
     margin-bottom: 25px;
+  
 }
 
-.topicsDiv{
+.topicsDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 500px;
-    background-color: #d0253cff;
-    border: black;
-    border-style: solid;
+    background-color:#EDE9E9;
+    border: solid #AF3800 2px;
     padding-bottom: 15px;
+    border-radius: 20px;;
 }

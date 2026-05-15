@@ -4,30 +4,38 @@
     Align-items: center;
     margin: 15px;
     padding: 5px;
-    border: 1px solid blue;
+
+    color: black;
 }
 
 .whereToStartWrapper h1{
     font-weight: lighter;
-
+    border-bottom: solid black 2px;
+    margin-bottom: 15px;
 }
 
 .resourcesDiv {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     padding: 20px;
     margin-bottom: 5px;
     text-align: center;
-    border: solid 1px yellow;
+    background-color: #4FB286;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 14px #0000006b;
+    border: solid 4px black;
+    margin-top: 15px;
+
 }
+
 .resourcesDiv p{
     font-size: larger;
 }
 
-
 .resourcesDiv h2 {
     text-align: center; 
 }
-
-
 
 .resourcesDiv a{
     padding-bottom: 10px;

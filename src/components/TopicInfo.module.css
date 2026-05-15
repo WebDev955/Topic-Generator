@@ -6,9 +6,19 @@
     border: solid 1px white;
     border-radius: 20px;
     margin: 10px;
+    color: #EDE9E9;
+    background-color: #AF3800;
+}
 
+.mainDiv h1{
+   border-bottom: solid black 5px;
+   border-top: solid black 10px; 
+   border-radius:15px;
+   margin-bottom:15px;
+   line-height: 80px;
 }
 
 .mainDiv p{
     text-align: center;
+    color: whitesmoke
 }

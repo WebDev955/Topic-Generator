@@ -4,7 +4,6 @@ import WhereToStart from "./WhereToStart"
 import styles from "./TopicInfo.module.css"
 
 function TopicInfo({topic}){
-    
     return(
         <>
         <div key={topic.id} className={styles.mainDiv}>
@@ -15,5 +14,4 @@ function TopicInfo({topic}){
         </>
     )
 }
-
 export default TopicInfo

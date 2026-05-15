@@ -1,11 +1,22 @@
-.mainDiv{
-    Display: flex;
-    Flex-direction: column;
-    Align-items: center;
+.divWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 10px;
+    width: 100%;
+    color: black;
+    border: solid black 3px;
+    border-radius: 25px;
+    background-color: #EDE9E9;
 }
+
+.divWrapper h1{
+    color:cadetblue;
+}
+
 
 .header {
     Display: flex;
@@ -19,36 +30,45 @@
 
     margin-bottom: 10px;
     padding-bottom: 15px;
-
 }
+
+.topicHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: solid black 2px;
+    border-radius: 25px;
+    text-align:center ;
+}
+
 
 .topicContent{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-    background-color: #d0253cff;
-    border-style: solid;
+    width: 100%;
     padding-bottom: 15px;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-
     margin-bottom: 10px;
+     text-align:center ;
 }
 
 .topicDes{
-    Display: flex;
-    Flex-direction: column;
-    Align-items: center;
-    
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
-.resourcesDiv{
+.topicSources{
     Display: flex;
     Flex-direction: column;
     Align-items: center;
     padding: 12px;
     margin-bottom: 5px;
+}
 
+.topicSources a{
+    color: blue;
+    margin-bottom: 10px;
 }
