@@ -32,8 +32,6 @@ export const AccountContext = createContext({
     saveNotes: () => {},
     updateNotes: () => {},
     setNotes: () => {}
-
-
 });
 
 export function AccountContextProvider({children}){
@@ -106,6 +104,10 @@ const [notes, setNotes] = useState({})
 
 function editingNotes(id){
     setIsEditingNotes(id)
+
+    if (isEditingNotes === id){
+        setIsEditingNotes()
+    }
 }
 
 function updateNotes(e,id){

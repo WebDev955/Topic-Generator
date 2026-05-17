@@ -1,0 +1,10 @@
+.notebookWrapper {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.notebookWrapper textarea {
+    width: 90vw;
+    height: 150px;
+}
